@@ -1,0 +1,38 @@
+final.zip
+Final: everything, including the hard and signature effects, the travelling-object demos and the 3D tools.
+
+.gitignore
+CLAUDE.md
+MY-RULES.md
+README.md
+RULES-GUIDE.md
+THIRD-PARTY-NOTICES.md
+app/effects/ (6 files)
+app/globals.css/ (1 files)
+app/icon.svg/ (1 files)
+app/layout.tsx/ (1 files)
+app/page.tsx/ (1 files)
+app/patterns/ (1 files)
+components/effects/ (8 files)
+components/engine/ (7 files)
+components/fx/ (26 files)
+components/motion/ (95 files)
+components/patterns/ (33 files)
+components/sections/ (1 files)
+components/ui/ (4 files)
+components/video/ (1 files)
+docs/ (4 files)
+lib/ (9 files)
+next.config.ts
+package.json
+postcss.config.mjs
+public/frames/ (98 files)
+public/lab/ (2 files)
+raw/ (3 files)
+scripts/ (10 files)
+site/ (6 files)
+tsconfig.json
+
+Effect groups in the /effects gallery: tiers easy + medium + hard.
+
+Run: npm install, then npm run dev (round 0 needs only Python 3 + ffmpeg).

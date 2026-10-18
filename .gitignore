@@ -1,0 +1,24 @@
+# dependencies, builds, secrets, system files
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+next-env.d.ts
+.env*
+.DS_Store
+
+# Python environments (npm run cutout:setup makes .venv-cutout)
+.venv*/
+venv/
+__pycache__/
+
+# recordings and big exports
+recordings/
+*.mov
+*.zip
+
+# keys (never commit)
+*.pem
+*.key
+*.p12
+.npmrc
